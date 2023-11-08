@@ -11,7 +11,7 @@ services:
       - mysql-volumes:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: admin12345678
-      MYSQL_DATABASE: todo
+      MYSQL_DATABASE: readorama
 
   laravel-app:
     build:
